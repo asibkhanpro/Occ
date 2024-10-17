@@ -1,0 +1,1107 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 118.4rem;
+    padding: 0;
+  }
+}
+
+/*Extra large devices (large desktops, 1199px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 960px;
+    padding: 0;
+  }
+  .item h5 {
+    font-size: 2.3rem;
+  }
+  .wedding-slider .owl-item.active {
+    padding: 0;
+  }
+}
+
+/*Extra large devices (large desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .primary_menu ul.container {
+    max-width: max-content !important;
+  }
+
+  .container1 {
+    display: none !important;
+  }
+
+  /* col_gap_24 */
+  .col_gap_24 {
+    margin: 0 -1.2rem;
+  }
+  .col_gap_24 > * {
+    padding: 0 1.2rem;
+  }
+
+  /* col_gap_48 */
+  .col_gap_48 {
+    margin: 0 -2.4rem;
+  }
+  .col_gap_48 > * {
+    padding: 0 2.4rem;
+  }
+  .wedding-slider .container {
+    width: 70rem;
+  }
+
+  .wedding-slider .owl-carousel.owl-caroussel.owl-theme.owl-loaded.owl-drag {
+    width: 70rem;
+  }
+  .dis-none {
+    display: none;
+  }
+
+  /* ============== course_status_area ============== */
+  .course_status_area .col-lg-7 {
+    max-width: 64rem;
+  }
+}
+@media (max-width: 991.98px) {
+  html {
+    font-size: 52%;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 6.4rem;
+  }
+  br {
+    display: none;
+  }
+
+  .pb_128 {
+    padding-bottom: 6.4rem;
+  }
+
+  /* root */
+  :root {
+    --header_height: 7.4rem;
+  }
+
+  main {
+    margin-top: var(--header_height);
+  }
+
+  .hero-content h1 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  .hero-text-content h1 {
+    font-size: 3.3rem;
+    line-height: 3.96rem;
+    max-width: 60rem;
+  }
+  /* ============= mobile menu ============= */
+  .mobile_menu {
+    position: fixed;
+    top: var(--header_height);
+    width: 100%;
+    height: 0;
+    background: var(--color_08);
+    left: 0;
+    overflow-y: auto;
+    padding: 3rem 0;
+    transition: 0.55s ease;
+    opacity: 0;
+  }
+
+  body.menu_toggled .mobile_menu {
+    opacity: 1;
+    height: calc(100vh - var(--header_height));
+  }
+
+  /* ============ hero_area ============ */
+  .hero_area {
+    height: 51.5rem;
+  }
+  .discorver_area .row {
+    gap: 2.4rem;
+  }
+
+  .discorver_area .section_top h1 br {
+    display: block;
+  }
+
+  .discorver_area {
+    padding: 3.2rem 0 6.4rem;
+  }
+
+  /* ============== Contact information ============== */
+  .contact_information {
+    padding-top: 4.8rem;
+  }
+  .map iframe {
+    height: 20rem;
+  }
+
+  /* ============== footer_area ============== */
+  .footer_area .row1.pb_50 {
+    padding-bottom: 3.2rem;
+  }
+
+  .footer_area {
+    padding: 4.8rem 0;
+  }
+
+  /* ============= Mobile Menu =========== */
+  .logo_white {
+    display: none;
+  }
+  .logo_colored {
+    display: block;
+  }
+
+  .primary_menu {
+    display: flex !important;
+    overflow-y: auto;
+    height: 100% !important;
+  }
+
+  .menu_wrap {
+    width: 100vw;
+    position: fixed;
+    height: calc(100% - var(--header_height));
+    left: 100%;
+    bottom: 0;
+    background: #fff;
+    z-index: 999;
+    padding: 3.2rem 0;
+    opacity: 0;
+    transition: 0.25s ease;
+    overflow: hidden;
+  }
+
+  .menu_toggled .menu_wrap {
+    opacity: 1;
+    left: 0;
+  }
+
+  .primary_menu > ul {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 1.6rem;
+  }
+
+  .primary_menu li a {
+    color: #000000 !important;
+    font-size: 2.8rem !important;
+    padding: 0.8rem 1.6rem !important;
+    width: 100% !important;
+    line-height: 3.64rem !important;
+    justify-content: space-between;
+    height: auto !important;
+  }
+
+  .primary_menu li a img {
+    filter: var(--black_img);
+    transform: rotate(-90deg);
+    width: 2.4rem;
+  }
+
+  .primary_menu li {
+    width: 100%;
+  }
+
+  /* dropdown */
+  .dropdown_menu {
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    background: #fff;
+    z-index: 999;
+    top: 0;
+    left: 100%;
+    box-shadow: none;
+    transform: translate(0, 0) !important;
+    overflow: auto;
+  }
+
+  .dropdown_available.active .dropdown_menu {
+    left: 0;
+  }
+
+  .submenu_opened .dropdown_back {
+    display: block;
+  }
+
+  .submenu_opened .logo {
+    display: none;
+  }
+
+  .dropdown_menu .container {
+    padding-bottom: 2.4rem;
+  }
+
+  .dropdown_menu .container.container1 {
+    display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+  }
+  .dropdown_menu a {
+    height: auto !important;
+  }
+
+  .dropdown_available.active > a img {
+    transform: rotate(0deg);
+  }
+
+  /* book */
+  .book_link .dropdown_menu {
+    left: 0 !important;
+    position: relative !important;
+    overflow: hidden;
+    opacity: 1;
+    padding: 0;
+    display: grid;
+    gap: 2.4rem;
+  }
+
+  .book_link .dropdown_menu a {
+    font-size: 1.4rem !important;
+    line-height: 2.1rem !important;
+    padding: 0 !important;
+    font-weight: 500;
+  }
+
+  .dropdown_available.book_link {
+    padding-top: 3.2rem;
+    position: relative;
+    z-index: -1;
+  }
+
+  .dropdown_available.book_link:before {
+    height: 0.1rem;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000000;
+    content: "";
+    position: relative;
+    top: -2.4rem;
+    z-index: 999;
+    display: block;
+  }
+
+  /* ============================================= asib khan============================================= */
+  .footer_area {
+    margin-top: 0;
+  }
+  .tabs li {
+    margin-bottom: 1.6rem;
+  }
+  .overflow-hidden.main_2 {
+    margin-top: 0;
+  }
+  .tabs-area .col-lg-6 {
+    margin-bottom: 5rem;
+  }
+  .tabs-area.tabs_3_area .col-lg-6 {
+    margin-bottom: 6.5rem;
+  }
+
+  .tabs-area.tabs_3_area {
+    padding-bottom: 0;
+    padding-top: 0 !important;
+  }
+  .pt_128 {
+    padding-top: 6.4rem !important;
+  }
+  .fixed-box {
+    margin-left: 0;
+  }
+  .missviss-area {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .mission_vision_content {
+    margin: 0;
+    margin-bottom: 6.5rem;
+  }
+  .mission_vision_content br {
+    display: block;
+  }
+  .slider-area {
+    padding-top: 0;
+  }
+
+  .hero-text-content {
+    padding-right: 10.6rem;
+  }
+  .see_also {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  .gallary_img_area {
+    padding-bottom: 7.5rem;
+  }
+  .hero-text-content span img {
+    margin-top: -3px;
+  }
+  .hero-area-4 {
+    padding-bottom: 3.2rem;
+    padding-top: 4rem;
+  }
+  .tmcc-content {
+    padding: 0 5.3rem;
+  }
+  .swimming-text br {
+    display: block;
+  }
+  .swimming-text {
+    margin-left: 2.4rem;
+  }
+  .book-footer p {
+    padding-right: 18.6rem;
+  }
+  .book-slider {
+    padding-bottom: 0;
+  }
+  .room-option {
+    padding: 0;
+  }
+  .awards-img img {
+    width: 11.8rem;
+  }
+  .book-slider .item img {
+    width: 100%;
+  }
+
+  .fixed-box p {
+    margin-right: 6.7rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  .wedding-title {
+    margin-right: 20rem;
+  }
+  .wedding-slider .owl-item.active {
+    padding: 0;
+  }
+
+  .wedding-slider {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  .wedding-slider {
+    padding: 0;
+  }
+
+  .book-slider.bok-sl-2 {
+    padding-bottom: 6.4rem;
+  }
+  .company_band_img img {
+    width: auto;
+  }
+  .company_band_img img {
+    width: 12rem;
+    margin-bottom: 1.6rem;
+  }
+  .col-lg-7.col-12.pl_0 {
+    padding-left: 15px;
+  }
+  .company-band-box.company-band-box-2 {
+    margin-top: 2.8rem;
+  }
+  .company_band .col-lg-6.col-md-6.pr_10 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .company_band .col-lg-6.col-md-6.pl_10 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .promtion_area {
+    padding-top: 6.5rem;
+  }
+
+  .company_band .col-lg-6.col-md-6 {
+    margin-bottom: 0;
+  }
+  .hero_area_2 {
+    padding-top: 22.4rem;
+  }
+  .modal-dialog {
+    margin: 0 auto;
+    padding: 0 6.4rem;
+  }
+
+  .swiper-button-next {
+    right: 6.4rem;
+  }
+  .swiper-button-prev {
+    left: 6.4rem;
+  }
+  .news-letest {
+    padding-top: 0;
+  }
+  .tabs-con-item {
+    padding-top: 6.4rem;
+  }
+  .tabs li {
+    font-size: 2.2rem;
+  }
+  .page-link {
+    padding: 0.75rem 0.75rem !important;
+  }
+  .p_3_content {
+    padding: 0 7.7rem;
+  }
+  .slider-img img {
+    width: 100%;
+    height: 21rem;
+    object-fit: cover;
+  }
+  .slider-area.sliders-3 .col-lg-6:last-child {
+    padding-left: 0;
+  }
+  .hero-text-content h6 {
+    margin-bottom: 2.4rem;
+  }
+  .other-fees {
+    padding-top: 6.5rem;
+    padding-bottom: 0;
+  }
+  .slider6 .owl-nav .owl-prev {
+    left: 6.5rem;
+  }
+  .slider6 .owl-nav .owl-next {
+    right: 6.5rem;
+  }
+  .swiper-button-prdev {
+    left: 6.4rem;
+    top: 42%;
+  }
+  .swiper-button-ndext {
+    right: 6.4rem;
+    top: 42%;
+  }
+  .swimming-text {
+    margin-left: 0;
+  }
+  .fixed-box p {
+    margin-right: 4.7rem;
+  }
+  .hero-text-content h3 {
+    color: #826a47;
+    margin-bottom: 0;
+  }
+  .wedding-slider .container {
+    width: 60rem;
+    padding: 0;
+    margin: 0 1.3rem;
+  }
+  .wedding-slider {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .swimming-swim {
+    padding-top: 0;
+  }
+  .see_also.see_also_2 {
+    padding-bottom: 7.5rem;
+  }
+  .hero-text-content h3 {
+    color: #826a47;
+    margin-bottom: 2.4rem;
+  }
+  .tab-link h6 {
+    font-size: 2.3rem;
+  }
+
+  .book_link .dropdown_menu {
+    top: 0 !important;
+  }
+
+  /* ============================================== New pages Update ===================================================== */
+  .pb_128 {
+    padding-bottom: 6.4rem !important;
+  }
+  .pt_128 {
+    padding-top: 6.4rem !important;
+  }
+  /* ============== Stay Page ============ */
+  .stay_blog_area_sv2 .row {
+    gap: 6.4rem 0;
+  }
+
+  /* ============== Reciprocal_detais Page ============ */
+  .Reciprocal_detais .row.pb_50 {
+    padding-bottom: 1rem;
+  }
+
+  .Reciprocal_detais {
+    padding-bottom: 7rem;
+  }
+
+  /* ============== fees-price ============ */
+  .fees-price.text-right.d-flex.align-items-center.justify-content-end {
+    flex-direction: column;
+    align-items: flex-end !important;
+  }
+
+  /* ============== membership_area ============ */
+  .membership_area .row {
+    flex-direction: column-reverse;
+    gap: 2.4rem;
+  }
+
+  .membership_area ul {
+    margin-top: 2.5rem;
+  }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    padding: 0 4rem;
+  }
+  h1 {
+    font-size: 4.8rem;
+    line-height: 5.76rem;
+  }
+  h2 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+  h5 {
+    font-size: 2.3rem;
+    line-height: 2.99rem;
+  }
+  h6 {
+    font-size: 1.9rem;
+    line-height: 2.47rem;
+  }
+  .text_xl {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+  .section_top > * {
+    text-align: center;
+  }
+  /* paddings and margins */
+  .pb_75 {
+    padding-bottom: 4rem;
+  }
+
+  .pb_90 {
+    padding-bottom: 5rem;
+  }
+
+  .pb_45 {
+    padding-bottom: 2.5rem;
+  }
+
+  .pt_40 {
+    padding-bottom: 2.5rem;
+  }
+
+  .pb_65 {
+    padding-bottom: 4.5rem;
+  }
+
+  .pb_80 {
+    padding-bottom: 3.5rem;
+  }
+  /* paddings and margins */
+
+  /* ================ hero area ================= */
+  .hero_area {
+    height: 23.177rem;
+  }
+
+  /* ================ main_slider_box area ================= */
+  .section_top > * {
+    text-align: left;
+  }
+
+  .section_top2_right {
+    justify-content: flex-start !important;
+    padding-top: 2.5rem;
+  }
+
+  .main_slider_box.pb_128 {
+    padding-bottom: 0;
+    margin-bottom: 0px;
+  }
+
+  .main_slider_box .slider_bottom_text {
+    padding: 1.5rem 4.1rem;
+  }
+
+  .main_slider_box .slider_arrows {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: calc(100% - 4rem);
+    justify-content: space-between;
+    bottom: 5rem;
+    left: 2rem;
+    z-index: 999;
+    height: 5rem;
+  }
+
+  .main_slider_box .container {
+    position: relative;
+    height: 100%;
+  }
+
+  .main_slider_box .container .col-md-3 {
+    position: static;
+  }
+  /* ================= follow_area =============== */
+  .follow_area .section_top > * {
+    text-align: center;
+  }
+
+  /* ================= contact_information =============== */
+  .contact_information .section_top > * {
+    text-align: center !important;
+  }
+
+  /* ================= footer_area =============== */
+  .footer_area .col-md-6 {
+    flex-direction: column;
+    gap: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .footer_area .pb_50 {
+    padding-bottom: 0 !important;
+  }
+  /* ============================================= asib khan============================================= */
+  .mb_128 {
+    padding-bottom: 6.5rem !important;
+  }
+  .pt_128 {
+    padding-top: 6.5rem !important;
+  }
+  .fixed-box {
+    margin-left: 0;
+  }
+
+  .owl-nav img {
+    width: 1rem;
+  }
+  .tabs-area .owl-nav img {
+    width: 2rem;
+  }
+  .slider5 .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    margin-left: 0;
+  }
+  .join-button {
+    text-align: left;
+  }
+  .join-content {
+    margin-bottom: 1.6rem;
+  }
+  .fixed-box h6 {
+    margin: 16px 4rem;
+  }
+  .fixed-box {
+    margin-left: 0;
+  }
+  .slider-area .title h2 {
+    text-align: center;
+  }
+  .hero-text-content {
+    padding-right: 0;
+  }
+  .hero-text-content h3 {
+    font-size: 3.3rem;
+    margin-bottom: 0.8rem;
+  }
+  .hero-text-content h6 {
+    margin-bottom: 2.4rem;
+  }
+  .hero-text-content span {
+    margin-bottom: 4rem;
+  }
+  .tmcc-content {
+    padding: 0;
+  }
+  .slider_box {
+    margin-bottom: 2.4rem;
+    display: inline-block;
+  }
+
+  .slider6 .owl-nav .owl-next {
+    right: 2.4rem;
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  .slider6 .owl-nav .owl-prev {
+    left: 2.4rem;
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  .slider-nav .next {
+    right: 2.4rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 2.2;
+  }
+  .slider-nav .prev {
+    left: 2.4rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 2.2;
+  }
+  .book-footer p {
+    padding-right: 0;
+  }
+  .features-content {
+    margin-left: 0;
+  }
+  .features-area {
+    padding-top: 0;
+  }
+  .swimming-text {
+    margin-left: 0;
+    margin-top: 2.4rem;
+  }
+
+  .rom-option h6 {
+    margin-bottom: 2.4rem;
+  }
+  .rom-option:nth-child(2) h6 {
+    margin-bottom: 0;
+  }
+  .room-option {
+    padding: 0;
+  }
+  .awards-img img {
+    width: 8.67rem;
+  }
+
+  .wedding-slider .owl-stage-outer {
+    overflow: hidden;
+    width: 100%;
+  }
+  .wedding-slider {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wedding-slider .owl-dots {
+    padding-top: 3.2rem;
+  }
+  .wedding-slider .owl-dots {
+    margin-left: 0;
+  }
+  .book-event-content {
+    margin-bottom: 1.6rem;
+  }
+  .book-e-btn {
+    text-align: left !important;
+  }
+  .slider_box {
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+  .wedding-slider {
+    padding: 0;
+  }
+  .promtion_area.main_slider_box.pb_128.pt_65 {
+    margin-bottom: 1rem;
+  }
+  .wedding-title {
+    margin-right: 0;
+  }
+  .tabs-area.tabs_3_area .col-lg-6 {
+    margin-bottom: 1.6rem;
+  }
+  .tabs-area.tabs_3_area {
+    padding-bottom: 6.5rem;
+    padding-top: 0 !important;
+  }
+  .wedding-experiences {
+    padding-bottom: 0;
+  }
+  .book-slider.bok-sl-2 .features-content {
+    margin-left: 0;
+  }
+
+  .company-band-box {
+    margin-bottom: 2.5rem;
+  }
+
+  .company-band-box.company-band-box-2 {
+    margin-top: 0;
+  }
+  .main_slider_box .slider_arrows {
+    bottom: 8rem;
+  }
+  .band-content.last a {
+    margin-right: 0;
+  }
+  .band-content {
+    padding-right: 7.6rem;
+  }
+  .swimming-area {
+    padding: 6.5rem 0;
+    padding-bottom: 0;
+  }
+  .promtion_area {
+    padding-top: 6.5rem;
+    padding-bottom: 0;
+  }
+  .company_band {
+    padding-top: 0;
+  }
+  .tabs-slider .col-lg-6 {
+    margin-bottom: 0;
+  }
+  .swiper.mySwiper img {
+    width: 100%;
+  }
+  .see_also.see_also_2 {
+    padding-bottom: 0;
+  }
+
+  .swiper-button-next {
+    right: 2.4rem;
+  }
+  .swiper-button-prev {
+    left: 2.4rem;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 1.6rem !important;
+  }
+  .modal-dialog {
+    padding: 0 2.4rem;
+  }
+  .pagination-lg .page-link {
+    padding: 0.4rem 0.5rem !important;
+    font-size: 1.4rem !important;
+    line-height: 1.2;
+  }
+  .p_3_content {
+    padding: 0;
+  }
+  .slider-area.sliders-3 .col-lg-6:last-child {
+    padding: 0 2.4rem;
+  }
+  .mission_vision_content h3 {
+    font-size: 3.3rem;
+  }
+  .dis.d-md-none.d-block .dis-content img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .dis.d-md-none.d-block .dis-content span {
+    margin-left: 0;
+  }
+  .accordion_item h6 {
+    padding-right: 1rem;
+  }
+  .combined-main-contentt {
+    padding: 3.2rem 0;
+  }
+  .swiper-button-ndext {
+    right: 2.4rem;
+    width: 3.6rem !important;
+    height: 3.6rem !important;
+    line-height: 2;
+    top: 40%;
+  }
+  .swiper-button-ndext img {
+    width: 1rem;
+  }
+  .swiper-button-prdev {
+    width: 3.6rem !important;
+    height: 3.6rem !important;
+    line-height: 2;
+    top: 40%;
+    left: 2.4rem;
+  }
+  .swiper-button-prdev img {
+    width: 1rem;
+  }
+  .wedding-slider .container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0;
+  }
+  .hero-text-content a {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding-top: 1.6rem;
+    display: inline-block;
+    text-decoration: underline;
+  }
+  .timings-area.def {
+    padding-top: 0;
+  }
+  .slider5 .owl-nav img {
+    width: 2rem;
+  }
+  .slider-img img {
+    height: 100%;
+  }
+  .page_3_about {
+    padding: 3.2rem 0;
+  }
+  .hero-content {
+    padding: 0.8rem 0;
+  }
+  .tabs-area.tabs_3_area .owl-nav {
+    top: auto;
+  }
+  .fixed-box p {
+    margin-right: 0;
+  }
+  .slider5 .owl-nav {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    line-height: 1;
+  }
+
+  /* ======= update ====== */
+  .hero-content h1 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  .hero-text-content h1 {
+    font-size: 3.3rem;
+    line-height: 3.96rem;
+    max-width: 100%;
+  }
+
+  .hero_text_content_2 h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* ============================================== New pages Update ===================================================== */
+  .pb_128 {
+    padding-bottom: 6.4rem !important;
+  }
+  .pt_128 {
+    padding-top: 6.4rem !important;
+  }
+  /* ============== Stay Page ============ */
+  .stay_blog_area_sv2 .row {
+    gap: 6.4rem 0;
+  }
+
+  .section_title2 {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 1.6rem;
+  }
+
+  .section_title2 * {
+    width: 100% !important;
+  }
+
+  .section_title2 .nice-select {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  /* =============== programmes area ============== */
+  .programmes_slide .slider_box {
+    margin-bottom: 0;
+  }
+
+  .programmes_slider .owl-nav {
+    bottom: 2rem;
+  }
+
+  .programmes_section .col_gap_24 {
+    gap: 4.8rem 0;
+  }
+
+  .vanda_slider .owl-nav {
+    top: 23.5rem;
+  }
+}
+@media (min-width: 722.98px) and (max-width: 767.98px) {
+  .slider5 .owl-nav {
+    bottom: 9.6rem;
+  }
+  .tabs-area.tabs_3_area .owl-nav {
+    bottom: 16.3rem;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 722.98px) {
+  .slider5 .owl-nav {
+    bottom: 12rem;
+  }
+  .tabs-area.tabs_3_area .owl-nav {
+    bottom: 16.3rem;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 722.98px) {
+  .slider5 .owl-nav {
+    bottom: 12rem;
+  }
+  .tabs-area.tabs_3_area .owl-nav {
+    bottom: 16.3rem;
+  }
+}
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+  .band-content br {
+    display: block;
+  }
+  html {
+    font-size: 2.66vw;
+  }
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .swiper-button-prdev {
+    top: 35%;
+  }
+
+  .swiper-button-ndext {
+    top: 35%;
+  }
+  .site_header_2 {
+    overflow: hidden;
+  }
+  .slider5 .owl-nav {
+    bottom: 20.8rem;
+  }
+  .tabs-area.tabs_3_area .owl-nav {
+    bottom: 22.5rem;
+  }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 449.98px) {
+  .slider5 .owl-nav {
+    bottom: 21.5rem;
+  }
+
+  .tabs-area.tabs_3_area .owl-nav {
+    bottom: 22.8rem;
+  }
+}
